@@ -1,4 +1,4 @@
-from hello import say_hello, add
+from hello import say_hello, add, multi
 
 
 def test_say_hello():
@@ -10,3 +10,6 @@ def test_say_hello():
 
 def test_add():
     assert add(2, 3) == 5
+
+def test_multi():
+    assert multi(2, 3) == 6
